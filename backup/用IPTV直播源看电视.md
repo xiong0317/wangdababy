@@ -11,14 +11,16 @@
 有U盘还有电脑的可以直接拷贝上面下载的apk文件到U盘，然后把U盘插到电视上直接安装。
 如果是远程给别人安装，建议把apk文件上传到迅雷云盘中，然后在电视上安装迅雷云盘，通过迅雷云盘下载安装。
 其实还有很多种安装方式，但是目的都是把apk文件上传到电视，只要目的达到就行。
+
 **添加直播源**
 安装好Tivimate后，直接打开，然后往里面添加一个源地址就行。我之前说的非常不错的开源项目就是一个直播源[IPTV](https://github.com/Meroser/IPTV)。因为github有些时候没有科学上网的话会无法访问，所以这个开源项目里面的订阅地址用了镜像源，这导致了需要输入的地址就非常非常长，如下：
+`https://mirror.ghproxy.com/https://raw.githubusercontent.com/Meroser/IPTV/main/IPTV.m3u`
 
-https://mirror.ghproxy.com/https://raw.githubusercontent.com/Meroser/IPTV/main/IPTV.m3u
 **其他**
 需要注意的是，这个直播源目前是IPV6的，如果你的宽带不支持，或者路由器光猫还没有开启IPV6，则需要先解决IPV6的问题。
 后续如果有找到更好的，或者有IPV4的直播源，也会在本篇文章里面添加。
 另外我也在我的iPhone上测试了一下，下载APTV这个软件，然后添加上面的源，一样可以愉快的看电视。
+
 **参考链接：**
 https://github.com/Meroser/IPTV
 https://github.com/skysolf/iptv
@@ -30,3 +32,6 @@ https://github.com/Ftindy/IPTV-URL
 https://github.com/mlvjfchen/zby
 https://gyssi.link/login.html (酒店直播源)
 https://github.com/ssili126/tv
+
+#
+/目前有些IPTV仓库的作者有删库跑路的情况，所以上面的参考链接可以多去看看，有一些还是可以用的。
