@@ -10,13 +10,13 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="巨魔安装。">
-<meta property="og:title" content="巨魔安装">
-<meta property="og:description" content="巨魔安装。">
+<meta name="description" content="正常情况下通过U盘给安卓电视安装APP是比较方便的，但是很多情况下没有U盘或者没有电脑，甚至长辈不懂电脑，让他们用U盘安装真的非常的麻烦。">
+<meta property="og:title" content="无需U盘iphone通过ADB给小米电视安装APP">
+<meta property="og:description" content="正常情况下通过U盘给安卓电视安装APP是比较方便的，但是很多情况下没有U盘或者没有电脑，甚至长辈不懂电脑，让他们用U盘安装真的非常的麻烦。">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://xiong0317.github.io/wangdababy/post/ju-mo-an-zhuang.html">
+<meta property="og:url" content="https://xiong0317.github.io/wangdababy/post/wu-xu-U-pan-iphone-tong-guo-ADB-gei-xiao-mi-dian-shi-an-zhuang-APP.html">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/Meekdai/meekdai.github.io/logo64.jpg">
-<title>巨魔安装</title>
+<title>无需U盘iphone通过ADB给小米电视安装APP</title>
 
 
 
@@ -49,7 +49,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
 <body>
     <div id="header">
-<h1 class="postTitle">巨魔安装</h1>
+<h1 class="postTitle">无需U盘iphone通过ADB给小米电视安装APP</h1>
 <div class="title-right">
     <a href="https://xiong0317.github.io/wangdababy" id="buttonHome" class="btn btn-invisible circle" title="首页">
         <svg class="octicon" width="16" height="16">
@@ -57,7 +57,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
         </svg>
     </a>
     
-    <a href="https://github.com/xiong0317/wangdababy/issues/1" target="_blank" class="btn btn-invisible circle" title="Issue">
+    <a href="https://github.com/xiong0317/wangdababy/issues/2" target="_blank" class="btn btn-invisible circle" title="Issue">
         <svg class="octicon" width="16" height="16">
             <path id="pathIssue" fill-rule="evenodd"></path>
         </svg>
@@ -73,7 +73,20 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p>巨魔安装</p></div>
+<div class="markdown-body" id="postBody"><p>正常情况下通过U盘给安卓电视安装APP是比较方便的，但是很多情况下没有U盘或者没有电脑，甚至长辈不懂电脑，让他们用U盘安装真的非常的麻烦。所以这里找到一个可以通过手机给安卓电视安装APP的方式，非常方便，你甚至可以远程给家里人安装。我下面记录了小米电视的配置过程，其他电视可自行搜索对应的操作方法即可。</p>
+<p><strong>电视端配置</strong><br>
+【打开电视开发者模式】设置-&gt;关于-&gt;产品型号一栏 连按6次以上，直到出现提示 您已处于开发者模式<br>
+【启动ADB调试】 设置-&gt;账号与安全-&gt;ADB调试 设置为允许<br>
+【查看电视的IPV4地址】 设置-&gt;网络设置-&gt;无线网络 找到自己连接的WIFI，查看电视的IPV4地址<br>
+<strong>手机端配置</strong><br>
+【野草助手】安卓和IOS都可以在应用商店下载安装。<br>
+【连接电视】确保你的手机和电视连接的是同一个WIFI，然后打开野草助手，点击左上角的未连接-&gt;输入电视设备的IP，这里填写上面第3步得到的IPV4地址，之后点击确定后需要在电视端再同意一下连接即可。<br>
+【安装本地APP】连接上电视之后，你就可以通过右上角的本地安装来安装手机上下载好的APK文件。<br>
+【口令安装APP】可以在手机上输入软件的特定口令直接安装。口令可以参考野草助手官方。<br>
+<strong>备注</strong><br>
+通过上面配置好之后，以后如果还需要安装或者更新APP，只需要打开电视端的野草助手（这个会在上面的步骤配置成功后自动安装），通过电视端直接用口令安装，或者远程扫码安装都是可以的。</p>
+<p>即使你远在他乡，也可以非常方便的给长辈安装和更新电视上的APP了。</p>
+<p>参考链接：<a href="https://www.yecao.net/" rel="nofollow">https://www.yecao.net/</a></p></div>
 <div style="font-size:small;margin-top:8px;float:right;">转载请注明出处</div>
 
 </div>
