@@ -1,6 +1,12 @@
 {
     "title":"王大Baby",
     "subTitle":"生活已然没有退路。",
-    "avatarUrl":"https://github.githubassets.com/favicons/favicon.svg",
-    "GMEEK_VERSION":"last"
+    "avatarUrl":"https://github.com/xiong0317/wangdababy/blob/098c801cb9f5915814a21f22d75444f0d64f0ac5/%CF%80%CF%80.jpg",
+    "GMEEK_VERSION":"last",
+    "startSite":"11/22/2024",
+    "onePageListNum":15,
+    "singlePage":["about"],
+    "iconList":{"music":"M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13Z"},
+    "exlink":{"music":"https://music.meekdai.com"},
+    "commentLabelColor":"#006b75"
 }
