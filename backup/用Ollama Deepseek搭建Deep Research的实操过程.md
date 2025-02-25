@@ -14,3 +14,16 @@ https://github.com/AnotiaWang/deep-research-web-ui
 ![Image](https://github.com/user-attachments/assets/7f82c10f-a8ce-4e11-83c2-cddb0c90ed29)
 
 ![Image](https://github.com/user-attachments/assets/5515ef9e-907e-4088-b13a-c99905993570)
+
+3.打开你临时地址，进行模型的选择
+
+本地部署的话选择Ollama
+
+![Image](https://github.com/user-attachments/assets/ada5f440-dc2e-443e-a8ca-7a53c5a57d31)
+
+也可使用API的形式
+![Image](https://github.com/user-attachments/assets/fe1ae06a-9d43-4dc0-9f4c-97df4f654e54)
+
+
+提出研究方向
+![Image](https://github.com/user-attachments/assets/a35e77d5-50c2-47cf-8675-cba0135bffb2)
