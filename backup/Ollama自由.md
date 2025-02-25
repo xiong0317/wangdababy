@@ -5,3 +5,6 @@ Fofa
 /api/tags可以查询出使用的模型
 找到了个70b速度还不错的
 ChatBox
+
+**在线检测工具**
+https://awesome-ollama-server.vercel.app/zh
